@@ -1,0 +1,102 @@
+/*
+* 
+* Super simple css styles!
+*
+*/
+/* typography */
+.promotion-success, .promotion-warning, .promotion-info {
+	padding: 10px 5px;
+}
+.promotion-success{
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.promotion-warning {
+    color: #FF0000;
+    background-color: #FEEFB3;
+}
+.promotion-info {
+	color: #00529B;
+	background-color: #BDE5F8;
+}
+
+/* general */
+.promotion {
+	width: 100%;
+}
+
+/* menu */
+nav.promotion-menu {
+	margin-bottom: 20px;
+}
+nav.promotion-menu ul {
+	list-style: none;
+}
+nav.promotion-menu ul li {
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+
+/* promotion body */
+.promotion-body {
+	margin-top: 20px;
+}
+
+/* Promotion form */
+.promotions form {
+	border: none;
+}
+.promotions fieldset {
+	border: none;
+}
+.promotions label {
+	display: block;
+	margin-bottom: 5px;
+}
+.promotions input {
+	width: 100%;
+}
+.promotions .media-title {
+	margin-top: 5px;
+}
+.promotions #image-loading {
+	display: none;
+}
+#remove-mediaUpload {
+	margin-top: 5px;
+}
+
+#remove-container {
+	display: none;
+}
+
+/* view promotions */
+.promotions-list {
+	list-style: none;
+	width: 100%;
+}
+.promotions-list li {
+	width: 42%;
+	margin: 10px 2%;
+	padding: 1%;
+	display:inline-block;
+}
+.promotion-description {
+	margin-top: 10px;
+}
+.promotion-title, .promotion-excerpt, .promotion-start-date, .promotion-end-date, .promotion-status {
+	text-align: center;
+}
+.promotion-status {
+	color: #00529B;
+}
+.promotion-start-date, .promotion-end-date {
+	font-size: 12px;
+}
+.promotion-edit {
+	float: left;
+}
+.promotion-delete {
+	float: right;
+}
